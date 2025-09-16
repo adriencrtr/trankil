@@ -129,3 +129,4 @@ poetry run pytest --cov=trankil --cov-report=html .\tests
 - [ ] Build a CLI (⚙️ Simple CLI or script-based usage)
 - [ ] Deal with Interlingual homograph: A word that is spelled the same in two or more languages but has different meanings in each of them. Currently the Linguee API return both translation (from src -> dst and dts -> src) but only the src -> dst translation is expected.
 - [ ] Use tox to test Trankil across multiple Python versions.
+- [ ] Use pre-commit as a dev dependancy.

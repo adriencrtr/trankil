@@ -19,6 +19,7 @@ poetry.lock
 htmlcov/
 .pytest_cache
 .coverage
+coverage.xml
 .coverage.*
 
 # Notebooks
