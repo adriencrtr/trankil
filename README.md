@@ -38,7 +38,7 @@ Its main goal is to make vocabulary acquisition _trankillement_ and efficient by
 
 This "Supported Languages" section is taken directly from the [Linguee API](https://github.com/imankulov/linguee-api) documentation.
 
->API supports all the languages, supported by Linguee. As in Linguee, not all language pairs are valid though. >Supported languages: bg (Bulgarian), cs (Czech), da (Danish), de (German), el (Greek), en (English), es (Spanish), >et (Estonian), fi (Finnish), fr (French), hu (Hungarian), it (Italian), ja (Japan),lt (Lithuanian), lv (Latvian), >mt (Maltese), nl (Dutch), pl (Polish), pt (Portuguese), ro (Romanian), ru (Russian), sk (Slovak), sl (Solvene), sv >(Swedish), zh (Chinese).
+>API supports all the languages, supported by Linguee. As in Linguee, not all language pairs are valid though. Supported languages: bg (Bulgarian), cs (Czech), da (Danish), de (German), el (Greek), en (English), es (Spanish), et (Estonian), fi (Finnish), fr (French), hu (Hungarian), it (Italian), ja (Japan),lt (Lithuanian), lv (Latvian), mt (Maltese), nl (Dutch), pl (Polish), pt (Portuguese), ro (Romanian), ru (Russian), sk (Slovak), sl (Solvene), sv (Swedish), zh (Chinese).
 
 ### ⚙️ Installation
 
