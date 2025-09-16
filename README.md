@@ -8,7 +8,7 @@
 Its main goal is to make vocabulary acquisition _trankillement_ and efficient by generating flashcards from user input.
 
 ![Python](https://img.shields.io/badge/python-3.9%20-blue)
-[![codecov](https://codecov.io/gh/USER/REPO/branch/main/graph/badge.svg)](https://codecov.io/gh/USER/REPO)
+[![codecov](https://codecov.io/gh/adriencrtr/trankil/branch/main/graph/badge.svg)](https://codecov.io/gh/USER/REPO)
 
 ### ✨ Features
 
