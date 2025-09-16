@@ -9,6 +9,7 @@ Its main goal is to make vocabulary acquisition _trankillement_ and efficient by
 
 ![Python](https://img.shields.io/badge/python-3.9%20-blue)
 [![codecov](https://codecov.io/gh/adriencrtr/trankil/branch/main/graph/badge.svg)](https://codecov.io/gh/USER/REPO)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ### ✨ Features
 
@@ -130,3 +131,7 @@ poetry run pytest --cov=trankil --cov-report=html .\tests
 - [ ] Deal with Interlingual homograph: A word that is spelled the same in two or more languages but has different meanings in each of them. Currently the Linguee API return both translation (from src -> dst and dts -> src) but only the src -> dst translation is expected.
 - [ ] Use tox to test Trankil across multiple Python versions.
 - [ ] Use pre-commit as a dev dependancy.
+
+### 📜 License
+
+This project is licensed under the terms of the MIT license.

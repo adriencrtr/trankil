@@ -1,7 +1,8 @@
 [project]
 name = "trankil"
 version = "0.1.0"
-description = ""
+description = "Trankil is a Python tool that helps you create customized multilingual Translations Anki cards."
+license = "MIT"
 authors = [
     {name = "Adrien COURATIER"}
 ]
