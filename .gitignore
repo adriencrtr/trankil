@@ -1,0 +1,30 @@
+# .gitignore
+__pycache__/
+.mypy_cache
+.ruff_cache
+*.apkg
+data/output/
+logs
+
+# Data
+data/*
+!data/example/fr_en/input_words.csv
+outputs/*
+!outputs/example/fr_en/*
+
+# Distribution / packaging
+.venv/
+poetry.lock
+
+# Coverage reports
+htmlcov/
+.pytest_cache
+.coverage
+.coverage.*
+
+# Notebooks
+**.ipynb_checkpoints
+*.ipynb
+
+# VSCode
+.vscode
