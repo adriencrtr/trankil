@@ -7,10 +7,9 @@ data/output/
 logs
 
 # Data
-data/*
-!data/example/fr_en/input_words.csv
+data/fr_en/*
+!data/fr_en/input_words.csv
 outputs/*
-!outputs/example/fr_en/*
 
 # Distribution / packaging
 .venv/
