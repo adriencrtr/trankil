@@ -5,7 +5,7 @@
 # 🧠 Trankil
 
 **Trankil** is a Python tool that helps you create customized multilingual **Translations** **Anki cards**.  
-Its main goal is to make vocabulary acquisition _trankillement_ and efficient by generating flashcards from user input.
+Its main goal is to make vocabulary acquisition _trankillement_ and effectively by generating flashcards from user input.
 
 ![Python](https://img.shields.io/badge/python-3.9%20-blue)
 [![codecov](https://codecov.io/gh/adriencrtr/trankil/branch/main/graph/badge.svg)](https://codecov.io/gh/USER/REPO)
@@ -128,9 +128,12 @@ poetry run pytest --cov=trankil --cov-report=html .\tests
 ### 🗺️ Upcoming Features
 
 - [ ] Build a CLI (⚙️ Simple CLI or script-based usage)
+- [ ] Publish to pypi
 - [ ] Deal with Interlingual homograph: A word that is spelled the same in two or more languages but has different meanings in each of them. Currently the Linguee API return both translation (from src -> dst and dts -> src) but only the src -> dst translation is expected.
 - [ ] Use tox to test Trankil across multiple Python versions.
 - [ ] Use pre-commit as a dev dependancy.
+- [ ] For traductions that don't have examples, use the examples and external_sources endpoints.
+- [ ] Add the mp3 sound functionality. Let the users choose.
 
 ### 📜 License
 
