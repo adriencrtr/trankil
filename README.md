@@ -42,7 +42,16 @@ This "Supported Languages" section is taken directly from the [Linguee API](http
 
 ### ⚙️ Installation
 
-**To be done**. Needs to check on another laptop the steps.
+1. Clone the project
+2. Install the virtual env with the following command (it's preferable to create the venv in the project):
+```
+poetry run python .\trankil\main.py
+```
+
+For windows users, if you encounter the "ModuleNotFoundError: No module named '...'" error, try to clear the cache with
+```
+poetry cache clear pypi --all
+```
 
 Specify which dependancies are installed based on basic installvation vs "dev" one.
 
@@ -71,6 +80,11 @@ The path to path to save your file is: "data\fr_en\input_words.csv".
 To run the script
 ```
 poetry run python .\trankil\main.py
+```
+
+The script can also be run as a module
+```
+poetry run python -m trankil.main
 ```
 
 Let me explain how **Trankil** works for you to make the most of it:

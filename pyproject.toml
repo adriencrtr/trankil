@@ -34,7 +34,7 @@ pytest-cov = "^6.2.1"
 pytest-mock = "^3.14.1"
 
 [tool.poetry.scripts]
-trankil = "trankil.cli:run"
+trankil = "trankil.main:main"
 
 [tool.ruff]
 line-length = 99
